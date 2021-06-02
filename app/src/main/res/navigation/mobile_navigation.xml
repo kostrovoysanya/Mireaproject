@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.kudriashov.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.kudriashov.mireaproject.ui.calculator.CalculateFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.kudriashov.mireaproject.ui.browser.BrowserFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/nav_audioPlayer"
+        android:name="ru.mirea.kudriashov.mireaproject.ui.audioplayer.AudioPlayerFragment"
+        android:label="Audio Player"
+        tools:layout="@layout/fragment_audio_player" />
+    <fragment
+        android:id="@+id/nav_func"
+        android:name="ru.mirea.kudriashov.mireaproject.ui.anymedia.FuncFragmaent"
+        android:label="Practice 5"
+        tools:layout="@layout/fragment_anymedia" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="ru.mirea.kudriashov.mireaproject.ui.history.History"
+        android:label="Stories"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.kudriashov.mireaproject.ui.settings.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
